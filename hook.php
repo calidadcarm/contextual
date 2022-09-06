@@ -168,7 +168,7 @@ function plugin_contextual_uninstall() {
 			  
 			  ';
 		
-	while ($data=$DB->fetch_array($result)){
+	while ($data=$DB->fetchAssoc($result)){
 		$DB->query("DROP TABLE `".$data["TABLE_NAME"]."`");
 		
 		$tabla.='
