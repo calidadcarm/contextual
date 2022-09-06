@@ -1,0 +1,64 @@
+<root>
+   <name>Contextual</name>
+   <key>Contextual</key>
+   <state>stable</state>
+   <logo>https://raw.githubusercontent.com/calidadcarm/contextual/main/img/icon.png</logo>
+   <description>
+      <short>
+         <es>El plugin contextual le permite agregar en el formulario de un objeto ayudas contextuales en los campos que usted necesite. Explicando los requerimientos del mismo o cualquier otro típo de indicación.</es>
+         <en>The contextual plugin allows you to add contextual help in the fields that you need in the form of an object. Explaining the requirements of the same or any other type of indication.</en>
+         <fr>Le plugin contextuel vous permet d'ajouter une aide contextuelle dans les champs dont vous avez besoin sous la forme d'un objet. Expliquer les exigences du même ou de tout autre type d'indication.</fr>
+      </short>
+      <long>
+         <es>
+El plugin contextual le permite agregar indicaciones en modo menú contextual sobre un icono que crea en el nombre de un campo un Tab (Pestaña) determinado dentro de un objeto.
+         </es>
+         <en>
+The contextual plugin allows you to add indications in context menu mode on an icon that creates a specific Tab within an object on the name of a field.
+         </en>
+         <fr>
+Le plugin contextuel permet d'ajouter des indications en mode menu contextuel sur une icône qui crée un onglet spécifique au sein d'un objet sur le nom d'un champ.		 
+         </fr>
+      </long>
+   </description>
+   <homepage>https://github.com/calidadcarm/contextual/</homepage>
+   <download>https://github.com/calidadcarm/contextual/releases/</download>
+   <issues>https://github.com/calidadcarm/contextual/issues</issues>
+   <readme>https://github.com/calidadcarm/contextual/blob/main/README.md</readme>
+   <authors>
+      <author>CARM</author>
+   </authors>
+   <versions>
+      <version>
+         <num>1.1.1</num>
+         <compatibility>~9.4.6</compatibility>
+         <download_url>https://github.com/calidadcarm/contextual/releases/tag/contextual_1.1.1_Glpi_9.4.x</download_url>
+      </version>
+      <version>
+         <num>1.1.2</num>
+         <compatibility>~9.5.8</compatibility>
+         <download_url>https://github.com/calidadcarm/contextual/releases/tag/contextual_1.1.2_Glpi_9.5.x</download_url>
+      </version>	  
+   </versions>
+   <langs>
+      <lang>es_ES</lang>
+   </langs>
+   <license>AGPL3</license>
+   <tags>
+      <es>
+         <tag>contextual</tag>
+         <tag>ayuda contextual</tag>         
+      </es>
+      <en>
+         <tag>contextual</tag>
+         <tag>context help</tag>
+      </en>
+      <fr>
+         <tag>contextuel</tag>
+         <tag>aide contextuellee</tag>
+      </fr>
+   </tags>
+   <screenshots>
+      <screenshot>https://raw.githubusercontent.com/calidadcarm/contextual/main/img/screenshot.png</screenshot>
+   </screenshots>
+</root>
