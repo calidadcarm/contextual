@@ -33,7 +33,7 @@
 // Purpose of file:
 // ----------------------------------------------------------------------/
 
-define ("PLUGIN_CONTEXTUAL_VERSION", "1.1.1");
+define ("PLUGIN_CONTEXTUAL_VERSION", "1.1.2");
 
 // Init the hooks of the plugins -Needed
 function plugin_init_contextual() {
@@ -221,7 +221,7 @@ function plugin_contextual_find_objects() {
 
 	if ( $DB->numrows($result) > 0) {
 
-		while ($data=$DB->fetch_array($result)){
+		while ($data=$DB->fetchAssoc($result)){
 
 			if (count(explode("glpi_plugin_formcreator_question",$data["TABLE_NAME"]))==1){	
 				array_push($tab , getItemTypeForTable($data["TABLE_NAME"]));
